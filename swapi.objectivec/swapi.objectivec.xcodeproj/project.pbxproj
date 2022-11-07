@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A262852C29187D8600926B7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A262852B29187D8600926B7F /* main.m */; };
+		A262853329187DD200926B7F /* SwapiConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A262853229187DD200926B7F /* SwapiConfiguration.m */; };
+		A262853B2918869400926B7F /* SwapiPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A262853A2918869400926B7F /* SwapiPerson.m */; };
+		A262853E291886AD00926B7F /* SwapiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A262853D291886AD00926B7F /* SwapiResponse.m */; };
+		A2628540291886C600926B7F /* SwapiError.m in Sources */ = {isa = PBXBuildFile; fileRef = A262853F291886C600926B7F /* SwapiError.m */; };
+		A26285422918872E00926B7F /* StarWarsApiService.m in Sources */ = {isa = PBXBuildFile; fileRef = A26285412918872E00926B7F /* StarWarsApiService.m */; };
+		A2628545291887D000926B7F /* SwapiEndpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = A2628544291887D000926B7F /* SwapiEndpoints.m */; };
+		A26285492918882700926B7F /* ApiNetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = A26285482918882700926B7F /* ApiNetworkController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A262852629187D8600926B7F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A262852829187D8600926B7F /* swapi.objectivec */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swapi.objectivec; sourceTree = BUILT_PRODUCTS_DIR; };
+		A262852B29187D8600926B7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A262853229187DD200926B7F /* SwapiConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapiConfiguration.m; sourceTree = "<group>"; };
+		A262853429187DDF00926B7F /* SwapiConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapiConfiguration.h; sourceTree = "<group>"; };
+		A26285382918852800926B7F /* StarWarsApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarWarsApi.h; sourceTree = "<group>"; };
+		A26285392918867E00926B7F /* SwapiPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapiPerson.h; sourceTree = "<group>"; };
+		A262853A2918869400926B7F /* SwapiPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapiPerson.m; sourceTree = "<group>"; };
+		A262853C291886A500926B7F /* SwapiResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapiResponse.h; sourceTree = "<group>"; };
+		A262853D291886AD00926B7F /* SwapiResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapiResponse.m; sourceTree = "<group>"; };
+		A262853F291886C600926B7F /* SwapiError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapiError.m; sourceTree = "<group>"; };
+		A26285412918872E00926B7F /* StarWarsApiService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarWarsApiService.m; sourceTree = "<group>"; };
+		A26285432918873500926B7F /* StarWarsApiService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarWarsApiService.h; sourceTree = "<group>"; };
+		A2628544291887D000926B7F /* SwapiEndpoints.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapiEndpoints.m; sourceTree = "<group>"; };
+		A2628546291887F800926B7F /* NetworkController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
+		A26285472918880A00926B7F /* ApiNetworkController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiNetworkController.h; sourceTree = "<group>"; };
+		A26285482918882700926B7F /* ApiNetworkController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiNetworkController.m; sourceTree = "<group>"; };
+		A262854A2918894600926B7F /* SwapiEndpoints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapiEndpoints.h; sourceTree = "<group>"; };
+		A262854B2918AAB300926B7F /* SwapiError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapiError.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A262852529187D8600926B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A262851F29187D8600926B7F = {
+			isa = PBXGroup;
+			children = (
+				A262852A29187D8600926B7F /* swapi.objectivec */,
+				A262852929187D8600926B7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A262852929187D8600926B7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A262852829187D8600926B7F /* swapi.objectivec */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A262852A29187D8600926B7F /* swapi.objectivec */ = {
+			isa = PBXGroup;
+			children = (
+				A262852B29187D8600926B7F /* main.m */,
+				A262853429187DDF00926B7F /* SwapiConfiguration.h */,
+				A262853229187DD200926B7F /* SwapiConfiguration.m */,
+				A262853C291886A500926B7F /* SwapiResponse.h */,
+				A262853D291886AD00926B7F /* SwapiResponse.m */,
+				A26285392918867E00926B7F /* SwapiPerson.h */,
+				A262853A2918869400926B7F /* SwapiPerson.m */,
+				A262854B2918AAB300926B7F /* SwapiError.h */,
+				A262853F291886C600926B7F /* SwapiError.m */,
+				A262854A2918894600926B7F /* SwapiEndpoints.h */,
+				A2628544291887D000926B7F /* SwapiEndpoints.m */,
+				A2628546291887F800926B7F /* NetworkController.h */,
+				A26285472918880A00926B7F /* ApiNetworkController.h */,
+				A26285482918882700926B7F /* ApiNetworkController.m */,
+				A26285382918852800926B7F /* StarWarsApi.h */,
+				A26285432918873500926B7F /* StarWarsApiService.h */,
+				A26285412918872E00926B7F /* StarWarsApiService.m */,
+			);
+			path = swapi.objectivec;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A262852729187D8600926B7F /* swapi.objectivec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A262852F29187D8600926B7F /* Build configuration list for PBXNativeTarget "swapi.objectivec" */;
+			buildPhases = (
+				A262852429187D8600926B7F /* Sources */,
+				A262852529187D8600926B7F /* Frameworks */,
+				A262852629187D8600926B7F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swapi.objectivec;
+			productName = swapi.objectivec;
+			productReference = A262852829187D8600926B7F /* swapi.objectivec */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A262852029187D8600926B7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A262852729187D8600926B7F = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = A262852329187D8600926B7F /* Build configuration list for PBXProject "swapi.objectivec" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A262851F29187D8600926B7F;
+			productRefGroup = A262852929187D8600926B7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A262852729187D8600926B7F /* swapi.objectivec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A262852429187D8600926B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A262852C29187D8600926B7F /* main.m in Sources */,
+				A26285492918882700926B7F /* ApiNetworkController.m in Sources */,
+				A2628545291887D000926B7F /* SwapiEndpoints.m in Sources */,
+				A262853E291886AD00926B7F /* SwapiResponse.m in Sources */,
+				A262853B2918869400926B7F /* SwapiPerson.m in Sources */,
+				A2628540291886C600926B7F /* SwapiError.m in Sources */,
+				A262853329187DD200926B7F /* SwapiConfiguration.m in Sources */,
+				A26285422918872E00926B7F /* StarWarsApiService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A262852D29187D8600926B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A262852E29187D8600926B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A262853029187D8600926B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A262853129187D8600926B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A262852329187D8600926B7F /* Build configuration list for PBXProject "swapi.objectivec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A262852D29187D8600926B7F /* Debug */,
+				A262852E29187D8600926B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A262852F29187D8600926B7F /* Build configuration list for PBXNativeTarget "swapi.objectivec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A262853029187D8600926B7F /* Debug */,
+				A262853129187D8600926B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A262852029187D8600926B7F /* Project object */;
+}
